@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<routes>
+    <route id="route_ew" edges="e_t t_w"/>
+    <route id="route_en" edges="e_t t_n"/>
+    <route id="route_es" edges="e_t t_s"/>
+    <route id="route_we" edges="w_t t_e"/>
+    <route id="route_wn" edges="w_t t_n"/>
+    <route id="route_ws" edges="w_t t_s"/>
+    <route id="route_ns" edges="n_t t_s"/>
+    <route id="route_nw" edges="n_t t_w"/>
+    <route id="route_ne" edges="n_t t_e"/>
+    <route id="route_sn" edges="s_t t_n"/>
+    <route id="route_se" edges="s_t t_e"/>
+    <route id="route_sw" edges="s_t t_w"/>
+    <flow id="flow_route_ew_video" route="route_ew" begin="0" end="400000" vehsPerHour="240" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_en_video" route="route_en" begin="0" end="400000" vehsPerHour="96" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_es_video" route="route_es" begin="0" end="400000" vehsPerHour="144" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_we_video" route="route_we" begin="0" end="400000" vehsPerHour="240" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_wn_video" route="route_wn" begin="0" end="400000" vehsPerHour="80" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_ws_video" route="route_ws" begin="0" end="400000" vehsPerHour="80" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_ns_video" route="route_ns" begin="0" end="400000" vehsPerHour="144" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_nw_video" route="route_nw" begin="0" end="400000" vehsPerHour="48" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_ne_video" route="route_ne" begin="0" end="400000" vehsPerHour="48" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_sn_video" route="route_sn" begin="0" end="400000" vehsPerHour="100" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_se_video" route="route_se" begin="0" end="400000" vehsPerHour="60" departSpeed="max" departPos="base" departLane="0"/>
+    <flow id="flow_route_sw_video" route="route_sw" begin="0" end="400000" vehsPerHour="40" departSpeed="max" departPos="base" departLane="0"/>
+</routes>

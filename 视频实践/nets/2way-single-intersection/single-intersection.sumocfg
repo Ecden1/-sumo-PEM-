@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="single-intersection.net.xml"/>
+        <route-files value="video_based_route.rou.xml"/>  
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="400000"/>
+    </time>
+</configuration>
